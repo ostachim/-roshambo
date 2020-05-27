@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    text-align:center;
+    
+    
+
+}
+h1{
+    margin:10px 0px;
+    
+}
+h3{
+    margin:10px 0px;
+}
+
+.hands{
+    cursor:pointer;
+    margin:0px 5px;
+}
+
+.panel-main{
+    position:relative;
+    
+    text-align:center;
+    width:100%;
+   
+    
+
+}
+.panel-left{
+    position:absolute;
+    width:50%;
+    height:245px;
+    
+
+    border-right:1px solid #333;
+ 
+    
+}
+.panel-right{
+    position:absolute;
+    right:0;
+    width:50%;
+    height:245px;
+    
+ 
+    border-left:1px solid #333;
+    margin: 0;
+    
+    
+    
+}
+
+.play-button{
+    font-size:20px;
+    padding:20px 50px;
+    border-radius:5px;
+    border: 1px solid #333;
+    background-color:#999;
+    cursor:pointer;
+    margin:20px 0px;
+    text-transform:uppercase;
+}
+.play-button:hover{
+    background-color:#666;
+}
